@@ -1,0 +1,7 @@
+# Dossier de cache Simulink
+slprj/
+
+# Fichiers de sauvegarde automatique et cache
+*.asv
+*.autosave
+*.slxc
