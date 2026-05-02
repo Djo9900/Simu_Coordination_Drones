@@ -44,27 +44,6 @@ La chose la plus intéressante qu'on a découverte : la représentation matricie
 
 où `A` contient les positions retardées des *voisins*, et `D·X(t)` la position *actuelle* du drone.
 
----
-
-
-### Étapes
-
-**1. Consensus sans délai**
-```matlab
-% Dans MATLAB, lancer directement :
-run('matlab/consensus_simple.m')
-```
-
-**2. Consensus avec délai**
-```matlab
-% Modifier la valeur de tau dans le fichier, puis :
-run('matlab/consensus_avec_delai.m')
-```
-
-**3. Zoom sur un drone avec plusieurs valeurs de τ**
-```matlab
-run('matlab/zoom_drone1.m')
-```
 
 ---
 
