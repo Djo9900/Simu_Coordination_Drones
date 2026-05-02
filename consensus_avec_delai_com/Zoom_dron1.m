@@ -27,12 +27,13 @@ D_global =D;
 L = D - A;  % Matrice de laplacien 
 L_global = L;
 
-%%
-Cas ou on fais un zoom sur un seul drone pouvoir son evolution 
-pour different valeur de tau
+%Cas ou on fais un zoom sur un seul drone pouvoir son evolution 
+%pour different valeur de tau
 
-Parametre
+%Parametre
 tau_values = [0.2, 0.5, 1.5, 4, 5];
+posi_inti = [4;2;6;1];  % position intial de chaque drone
+
 
 
 
